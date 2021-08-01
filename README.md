@@ -1,2 +1,2 @@
 # next-notes
-My notes and small projects on Next JS
+My notes and small project on Next JS
