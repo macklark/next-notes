@@ -1,7 +1,7 @@
 {
   "cars": [
-    { "id": 1, "model": "Lamborghini Aventador" },
-    { "id": 2, "model": "Lamborghini Huracán" },
-    { "id": 3, "model": "Lamborghini Urus" }
+    { "id": "1", "model": "Lamborghini Aventador" },
+    { "id": "2", "model": "Lamborghini Huracán" },
+    { "id": "3", "model": "Lamborghini Urus" }
   ]
 }
