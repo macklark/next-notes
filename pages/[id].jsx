@@ -3,6 +3,11 @@ import path from "path";
 
 export default function CarId(props) {
   const { car } = props;
+
+  if (!car) {
+    return <p>Loading...</p>;
+  }
+
   return (
     <div className="text-center mt-20">
       <p>{car.model}</p>
@@ -31,9 +36,11 @@ export async function getStaticPaths() {
   return {
     paths: [
       { params: { id: "1" } },
-      { params: { id: "2" } },
-      { params: { id: "3" } },
+      // { params: { id: "2" } },
+      // { params: { id: "3" } },
     ],
-    fallback: false,
+    fallback: true,
+    // fallback: false,
+    // fallback: "blocking"
   };
 }
