@@ -10,7 +10,7 @@ export default function Home(props) {
       <ul>
         {cars.map((car) => (
           <li key={car.id}>
-            <Link href={`/${car.id}`}>{car.model}</Link>
+            <Link href={`/cars/${car.id}`}>{car.model}</Link>
           </li>
         ))}
       </ul>
